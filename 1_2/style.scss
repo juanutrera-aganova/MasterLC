@@ -1,0 +1,42 @@
+@use "tema1" as *;
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+    div{
+        padding: 10px;
+        
+        width: 12%;
+        height: 50px;
+    }
+}
+
+.princial-font{
+    //font-family: $principal-font;
+    font-family:"Arial";
+}
+
+.secundary-font{
+    font-family: $secundary-font;
+}
+
+.base{
+    background-color: $color-base;
+}
+.important{
+    background-color: $color-important;
+}
+.warning{
+    background-color: $color-warning;
+}
+
+.box-shadow{
+    box-shadow: $box-shadow;
+}

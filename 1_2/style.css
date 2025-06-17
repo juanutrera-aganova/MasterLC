@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.contenedor div {
+  padding: 10px;
+  width: 12%;
+  height: 50px;
+}
+
+.princial-font {
+  font-family: "Arial";
+}
+
+.secundary-font {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.base {
+  background-color: red;
+}
+
+.important {
+  background-color: #8B0000;
+}
+
+.warning {
+  background-color: coral;
+}
+
+.box-shadow {
+  box-shadow: -10px 5px 5px rgba(0, 0, 0, 0.8);
+}/*# sourceMappingURL=style.css.map */
